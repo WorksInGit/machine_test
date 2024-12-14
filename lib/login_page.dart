@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Instantiate the LoginController
+
     final LoginController loginController = Get.put(LoginController());
 
     return SafeArea(

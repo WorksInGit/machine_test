@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:machine_test/controller/requirement_controller.dart';
-import 'package:machine_test/model/requirement_model.dart';
+
 
 class RequirementList extends StatelessWidget {
   const RequirementList({super.key});

@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:machine_test/views/bottom_nav.dart';
 
 class LoginController extends GetxController {
-  // Observable variables
+
   var isLoading = false.obs;
   var email = ''.obs;
   var password = ''.obs;
@@ -32,7 +32,7 @@ class LoginController extends GetxController {
 
       if (response.statusCode == 200) {
         var responseData = json.decode(response.body);
-        var token = responseData['token']; // JWT Token
+        var token = responseData['token']; 
         var userData = responseData['data'];
         Get.offAll(() => BottomNav());
       } else {
